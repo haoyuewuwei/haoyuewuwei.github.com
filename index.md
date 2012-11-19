@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Pursue the inner peace...
+tagline: 
 ---
 {% include JB/setup %}
 

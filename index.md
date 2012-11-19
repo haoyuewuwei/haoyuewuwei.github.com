@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Pursue the inner peace...
-tagline: pursue
+tagline: own way
 ---
 {% include JB/setup %}
 

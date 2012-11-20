@@ -10,8 +10,8 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : ThomasChan's Life
-tagline: 
-author :
+tagline: ""
+author :ThomasChan
   name : Thomas
   email : thomaschan1987@gmail.com
   github : haoyuewuwei

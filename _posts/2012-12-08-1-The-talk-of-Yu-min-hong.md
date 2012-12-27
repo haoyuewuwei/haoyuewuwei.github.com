@@ -2,7 +2,7 @@
 layout: post
 title: "不断跨过人生的地平线——俞敏洪"
 description: "听俞敏洪的演讲有感"
-category: 听后感
+category: 感悟
 tags: [俞敏洪, 励志, 演讲]
 ---
 {% include JB/setup %}

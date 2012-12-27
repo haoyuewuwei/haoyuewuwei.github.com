@@ -2,7 +2,7 @@
 layout: post
 title: "推荐一个好用的密码管理工具"
 description: "推荐一个好用的密码管理工具"
-category: 
+category: 工具推荐
 tags: [密码管理, LastPass]
 ---
 {% include JB/setup %}

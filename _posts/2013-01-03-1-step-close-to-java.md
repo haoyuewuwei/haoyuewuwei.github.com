@@ -3,7 +3,7 @@ layout: post
 title: "走近Java"
 description: "深入理解Java虚拟机，第一章学习笔记"
 category: Java
-tags: [Java，学习笔记]
+tags: [Java, 学习笔记]
 ---
 {% include JB/setup %}
 

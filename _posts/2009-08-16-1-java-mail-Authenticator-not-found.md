@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "javax\.mail\.Authenticator not Founder的问题"
+title: "javax.mail.Authenticator not Founder的问题"
 description: ""
 category: JAVA
 tags: [java]

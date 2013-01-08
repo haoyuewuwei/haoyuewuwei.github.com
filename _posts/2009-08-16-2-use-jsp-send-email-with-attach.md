@@ -361,8 +361,7 @@ public class SendAttachment extends HttpServlet {
 	}
 
 }
- 
- {% endhighlight %}
+{% endhighlight %}
  
 
  
@@ -395,5 +394,4 @@ public class MyAuthenticator extends Authenticator{
 	}
 }
  
-
- {% endhighlight %}
+{% endhighlight %}

@@ -8,7 +8,7 @@ tags: [JSP, JAVA, Web]
 {% include JB/setup %}
 SendAttanchment.jsp文件--------------------------------测试文件
 
-{% highlight jsp %}
+{% highlight java %}
 <%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
 
 <html>
@@ -203,7 +203,7 @@ public class AttachmentSender {
 	}
 }
  
-
+{% endhighlight %}
  
 
  
@@ -220,6 +220,8 @@ SendAttachment.java
 
 2) 此处实现添加附件的方法是：先将附件上传至server的工程目录下，然后attach到邮件，然后删除上传到server上的文件
 
+
+{% highlight java %}
 package servlets;
 
 import java.io.IOException;
@@ -391,7 +393,7 @@ public class SendAttachment extends HttpServlet {
 
 }
  
-
+ {% endhighlight %}
  
 
  
@@ -401,7 +403,7 @@ public class SendAttachment extends HttpServlet {
  
 
  
-
+{% highlight java %}
 MyAuthenticator.java
 
 package beans;

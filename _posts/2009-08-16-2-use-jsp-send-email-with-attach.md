@@ -14,6 +14,7 @@ SendAttanchment.jsp文件--------------------------------测试文件
 
 
 
+
 AttachmentSender.java 
 
 完成邮件的以下一些操作：

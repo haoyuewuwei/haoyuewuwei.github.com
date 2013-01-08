@@ -1,23 +1,16 @@
 ---
 layout: post
-title: "JSP实现发送带有附件的邮件代码 "
+title: "JSP实现发送带有附件的邮件代码"
 description: ""
 category: Web开发
 tags: [JSP, JAVA, Web]
 ---
 {% include JB/setup %}
+
 SendAttanchment.jsp文件--------------------------------测试文件
 
 由于在markdown下面写html代码直接会被解析，所以只能截图了：
 <iframe src="https://skydrive.live.com/embed?cid=90ABA068241662DC&resid=90ABA068241662DC%21112&authkey=AEpHO3wkCZcyeNY" width="319" height="216" frameborder="0" scrolling="no"></iframe> 
-
- 
-
- 
-
- 
-
- 
 
 AttachmentSender.java 
 
@@ -379,9 +372,10 @@ public class SendAttachment extends HttpServlet {
  
 
  
-{% highlight java %}
+
 MyAuthenticator.java
 
+{% highlight java %}
 package beans;
 
 import javax.mail.Authenticator;

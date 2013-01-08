@@ -3,7 +3,7 @@ layout: post
 title: "JSP实现发送带有附件的邮件代码"
 description: ""
 category: Web开发
-tags: [JSP, JAVA, Web]
+tags: [JAVA, Web, WebappClassLoader]
 ---
 {% include JB/setup %}
 

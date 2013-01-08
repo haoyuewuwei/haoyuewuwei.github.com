@@ -8,33 +8,31 @@ tags: [JSP, JAVA, Web]
 {% include JB/setup %}
 SendAttanchment.jsp文件--------------------------------测试文件
 
-{% highlight java %}
-<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
+><%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
+>
+><html>
+>  <head>
+>    <base href="<%=basePath%>">
+>    
+>    <title>My JSP 'SendAttanchment.jsp' starting page</title>   
+>  </head>
+>  
+>  <body>
+>    <div align="center">
+> User JavaMail to send emails:<br>
+> <form action="servlet/SendAttachment" method="post" ENCTYPE="multipart/form-data">
+>  Recipient: <input type="text" size="40" name="to"><br><br>
+>  Sender: <input type="text" size="40" name="from" value="test@sina.com"><br><br>
+>  Subject:<input type="text" size="40" name="subject" /><br><br> 
+>  Attach: <input type="file" name="file" size="28" /><br><br>
+>  Content:<textarea rows="6" cols="38" name="content" />
+>  <input type="submit" value="Send" />
+>  <input type="reset" value="Cancle" />
+>  </form>
+> </div>
+>  </body>
+></html>  
 
-<html>
-  <head>
-    <base href="<%=basePath%>">
-    
-    <title>My JSP 'SendAttanchment.jsp' starting page</title>   
-  </head>
-  
-  <body>
-    <div align="center">
- User JavaMail to send emails:<br>
- <form action="servlet/SendAttachment" method="post" ENCTYPE="multipart/form-data">
-  Recipient: <input type="text" size="40" name="to"><br><br>
-  Sender: <input type="text" size="40" name="from" value="test@sina.com"><br><br>
-  Subject:<input type="text" size="40" name="subject" /><br><br> 
-  Attach: <input type="file" name="file" size="28" /><br><br>
-  Content:<textarea rows="6" cols="38" name="content" />
-  <input type="submit" value="Send" />
-  <input type="reset" value="Cancle" />
-  </form>
- </div>
-  </body>
-</html>  
-
-{% endhighlight %}
  
 
  

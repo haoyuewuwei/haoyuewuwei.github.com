@@ -8,30 +8,8 @@ tags: [JSP, JAVA, Web]
 {% include JB/setup %}
 SendAttanchment.jsp文件--------------------------------测试文件
 
-''<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>''
-
-<html>
-  <head>
-    <base href="<%=basePath%>">
-    
-    <title>My JSP 'SendAttanchment.jsp' starting page</title>   
-  </head>
-  
-  <body>
-    <div align="center">
- User JavaMail to send emails:<br>
- <form action="servlet/SendAttachment" method="post" ENCTYPE="multipart/form-data">
-  Recipient: <input type="text" size="40" name="to"><br><br>
-  Sender: <input type="text" size="40" name="from" value="test@sina.com"><br><br>
-  Subject:<input type="text" size="40" name="subject" /><br><br> 
-  Attach: <input type="file" name="file" size="28" /><br><br>
-  Content:<textarea rows="6" cols="38" name="content" />
-  <input type="submit" value="Send" />
-  <input type="reset" value="Cancle" />
-  </form>
- </div>
-  </body>
-</html>  
+由于在markdown下面写html代码直接会被解析，所以只能截图了：
+<iframe src="https://skydrive.live.com/embed?cid=90ABA068241662DC&resid=90ABA068241662DC%21112&authkey=AEpHO3wkCZcyeNY" width="319" height="216" frameborder="0" scrolling="no"></iframe> 
 
  
 

@@ -168,7 +168,7 @@ public class AttachmentSender {
 	}
 }
  
-
+{% endhighlight %}
  
 
  
@@ -186,7 +186,7 @@ SendAttachment.java
 2) 此处实现添加附件的方法是：先将附件上传至server的工程目录下，然后attach到邮件，然后删除上传到server上的文件
 
 
-
+{% highlight java %}
 package servlets;
 
 import java.io.IOException;
@@ -357,7 +357,7 @@ public class SendAttachment extends HttpServlet {
 	}
 
 }
-
+{% endhighlight %}
  
 
  
@@ -370,7 +370,7 @@ public class SendAttachment extends HttpServlet {
 
 MyAuthenticator.java
 
-
+{% highlight java %}
 package beans;
 
 import javax.mail.Authenticator;
@@ -391,3 +391,9 @@ public class MyAuthenticator extends Authenticator{
 }
  
 {% endhighlight %}
+
+
+SendAttanchment.jsp文件--------------------------------测试文件
+
+由于在markdown下面写html代码直接会被解析，所以只能截图了：
+<iframe src="https://skydrive.live.com/embed?cid=90ABA068241662DC&resid=90ABA068241662DC%21112&authkey=AEpHO3wkCZcyeNY" width="319" height="216" frameborder="0" scrolling="no"></iframe> 

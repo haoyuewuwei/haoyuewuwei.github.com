@@ -2,7 +2,7 @@
 layout: post
 title: "C++中函数执行效率研究"
 description: ""
-category: C/C++
+category: C_CPP
 tags: [C++函数]
 ---
 {% include JB/setup %}

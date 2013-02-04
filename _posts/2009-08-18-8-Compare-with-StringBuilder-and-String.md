@@ -8,6 +8,7 @@ tags: [String效率, Java]
 {% include JB/setup %}
 Reference: http://book.csdn.net/bookfiles/135/1001354628.shtml
 
+{% highlight java %}
 public class AppendStringTest{
 		public static void main(String [] args){
 				String text = "";
@@ -26,6 +27,8 @@ public class AppendStringTest{
 				System.out.println("Runing time:" + (endTime - beginTime));
 			}
 	} 
+
+ {% endhighlight %}
 
 Results:
 

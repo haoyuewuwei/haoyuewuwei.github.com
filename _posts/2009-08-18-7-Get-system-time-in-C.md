@@ -10,7 +10,7 @@ tags: [C语言]
 Reference: http://net.pku.edu.cn/~yhf/linux_c/function/04.html
 
  
-
+{% highlight C %}
 asctime（将时间和日期以字符串格式表示）  
 相关函数  
 
@@ -433,3 +433,4 @@ printf(“%d/n”,seconds);
 }
  
 执行  9.73E+08
+{% endhighlight %}

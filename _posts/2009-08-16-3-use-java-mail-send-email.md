@@ -5,7 +5,7 @@ description: ""
 category: JAVA
 tags: [Java, Web]
 ---
- 
+{% include JB/setup %}
 
 Mailbox.java: 表示邮箱的一些信息
 

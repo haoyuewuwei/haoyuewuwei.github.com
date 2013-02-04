@@ -3,7 +3,7 @@ layout: post
 title: "javax.mail.Authenticator not Founder的问题"
 description: ""
 category: JAVA
-tags: [JAVA]
+tags: [Java]
 ---
 {% include JB/setup %}
 

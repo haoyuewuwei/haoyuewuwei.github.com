@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "java利用JavaMail实现邮件功能"
+title: "Java利用JavaMail实现邮件功能"
 description: ""
 category: JAVA
 tags: [Java, Web]

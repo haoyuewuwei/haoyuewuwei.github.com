@@ -53,3 +53,4 @@ void algorithm2()
 	//type your code
 	for(int i = 0; i < 10000; i++);
 }
+{% endhighlight %}
